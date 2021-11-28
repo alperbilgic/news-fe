@@ -97,7 +97,7 @@ export default {
         this.date = null
         this.time = null
         this.error = null
-      }).catch((err) => {
+      }).catch(() => {
         this.error = "Something went wrong!"
       })
     }
